@@ -31,7 +31,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background: grey;
+
 }
 ol, ul {
 	list-style: none;
@@ -49,13 +51,15 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
 header {
     background: black;
     height: 100px;
     padding: 30px;
 }
 .logo, .menu {
-    color: black;
     background: white;
     height: 40px;
 }
@@ -66,4 +70,49 @@ header {
 .menu {
     float: right;
     width: 200px;
+}
+.container {
+
+}
+.content {
+    background: black;
+    margin: 75px auto;
+    width: 60%;
+    padding-top: 15px;
+}
+.line1, .line2, .line3 {
+    margin: 15px auto;
+    border: 1px black;
+}
+.line1 {
+    background: white;
+    width: 75%;
+    height: 50px;
+}
+.line2 {
+    background: white;
+    width: 63%;
+    height: 50px;
+}
+.line3 {
+    width: 70%;
+    background: black;
+    margin: 15px auto;
+    padding-bottom: 15px;
+}
+.pill1 {
+    background: white;
+    height: 30px;
+    display: inline-block;
+    width: 49%;
+    border: 1px white solid;
+    border-radius: 25px;
+}
+.pill2 {
+    background: white;
+    height: 30px;
+    display: inline-block;
+    width: 49%;
+    border: 1px white solid;
+    border-radius: 25px;
 }
